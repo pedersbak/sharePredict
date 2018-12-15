@@ -2,6 +2,7 @@ import requests
 import json
 import pandas as pd
 import pickle
+import os
 def save_obj(obj, name ):
     with open('./bin/'+ name + '.pkl', 'wb') as f:
         pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
@@ -27,7 +28,8 @@ def downloadSymbolHistory(symbol, maxDate='2999-12-31', download=True):
 
     url = "https://www.alphavantage.co/query"
     function = "TIME_SERIES_DAILY"
-    api_key = "JS1OH18PC49XLGCG"   
+    #api_key = "JS1OH18PC49XLGCG"   
+    api_key=os.environ["alphavantagetoken"]
     datatype = "json"
     outputsize = "full"
 
@@ -116,4 +118,5 @@ def downloadSymbolHistory(symbol, maxDate='2999-12-31', download=True):
     myDf['Relative'] = se.values
     save_obj(myDf,symbol)
     return myDf[myDf.index<=maxDate], errorCode
+#a,b = downloadSymbolHistory('APPL', maxDate='2999-12-31', download=True)
 

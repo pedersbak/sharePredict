@@ -1,103 +1,71 @@
 nohup: ignoring input
-[I 09:01:13.964 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
-[I 09:01:14.375 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.0
-[I 09:01:14.375 NotebookApp] Serving notebooks from local directory: /home/ubuntu/gitRepo/sharePredict
-[I 09:01:14.375 NotebookApp] The Jupyter Notebook is running at:
-[I 09:01:14.375 NotebookApp] http://(ip-172-31-0-198 or 127.0.0.1):8888/?token=ee7e25528a6c0254059a6e0f984de41f36c0801e02949aa4
-[I 09:01:14.375 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[W 09:01:14.375 NotebookApp] No web browser found: could not locate runnable browser.
-[C 09:01:14.375 NotebookApp] 
+[I 20:21:38.249 NotebookApp] The port 8888 is already in use, trying another port.
+[I 20:21:38.289 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.0
+[I 20:21:38.289 NotebookApp] Serving notebooks from local directory: /home/ubuntu/gitRepo/sharePredict
+[I 20:21:38.289 NotebookApp] The Jupyter Notebook is running at:
+[I 20:21:38.289 NotebookApp] http://(ip-172-31-0-198 or 127.0.0.1):8889/?token=ad76dc30dea9a9d5a63adea79aad486da8d1fe7c46ea8934
+[I 20:21:38.289 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 20:21:38.289 NotebookApp] No web browser found: could not locate runnable browser.
+[C 20:21:38.290 NotebookApp] 
     
     Copy/paste this URL into your browser when you connect for the first time,
     to login with a token:
-        http://(ip-172-31-0-198 or 127.0.0.1):8888/?token=ee7e25528a6c0254059a6e0f984de41f36c0801e02949aa4
-[W 09:01:58.111 NotebookApp] Clearing invalid/expired login cookie username-35-166-104-30-8888
-[W 09:01:58.112 NotebookApp] Forbidden
-[W 09:01:58.112 NotebookApp] 403 GET /api/contents/sharePredict/sharePredict/sharePredict_working.ipynb?content=0&_=1544860052687 (178.157.248.62) 1.63ms referer=http://35.166.104.30:8888/notebooks/sharePredict/sharePredict/sharePredict_working.ipynb
-[W 09:01:59.022 NotebookApp] Couldn't authenticate WebSocket connection
-[W 09:01:59.061 NotebookApp] 403 GET /api/kernels/ec6d9017-7f6f-4f32-9899-d6a37f43b51e/channels?session_id=5c2b0ef98271428b839b97eedd134b5d (178.157.248.62) 39.76ms referer=None
-[W 09:01:59.177 NotebookApp] Couldn't authenticate WebSocket connection
-[W 09:01:59.178 NotebookApp] 403 GET /api/kernels/ec6d9017-7f6f-4f32-9899-d6a37f43b51e/channels?session_id=5c2b0ef98271428b839b97eedd134b5d (178.157.248.62) 6.66ms referer=None
-[W 09:02:01.000 NotebookApp] Forbidden
-[W 09:02:01.000 NotebookApp] 403 PUT /api/contents/sharePredict/sharePredict/sharePredict_working.ipynb (178.157.248.62) 2653.13ms referer=http://35.166.104.30:8888/notebooks/sharePredict/sharePredict/sharePredict_working.ipynb
-[W 09:02:01.298 NotebookApp] Forbidden
-[W 09:02:01.298 NotebookApp] 403 GET /api/sessions?_=1544860037742 (178.157.248.62) 0.95ms referer=http://35.166.104.30:8888/tree?
-[W 09:02:01.304 NotebookApp] Forbidden
-[W 09:02:01.304 NotebookApp] 403 GET /api/terminals?_=1544860037743 (178.157.248.62) 0.60ms referer=http://35.166.104.30:8888/tree?
-[W 09:02:03.595 NotebookApp] Couldn't authenticate WebSocket connection
-[W 09:02:03.596 NotebookApp] 403 GET /api/kernels/ec6d9017-7f6f-4f32-9899-d6a37f43b51e/channels?session_id=5c2b0ef98271428b839b97eedd134b5d (178.157.248.62) 2.52ms referer=None
-[W 09:02:03.597 NotebookApp] Couldn't authenticate WebSocket connection
-[W 09:02:03.598 NotebookApp] 403 GET /api/kernels/ec6d9017-7f6f-4f32-9899-d6a37f43b51e/channels?session_id=5c2b0ef98271428b839b97eedd134b5d (178.157.248.62) 1.95ms referer=None
-[I 09:02:10.294 NotebookApp] 302 GET / (178.157.248.62) 0.39ms
-[I 09:02:10.306 NotebookApp] 302 GET / (178.157.248.62) 0.36ms
-[I 09:02:10.499 NotebookApp] 302 GET /tree? (178.157.248.62) 0.64ms
-[I 09:02:10.514 NotebookApp] 302 GET /tree? (178.157.248.62) 0.56ms
-[I 09:02:16.966 NotebookApp] 302 POST /login?next=%2Ftree%3F (178.157.248.62) 0.99ms
-[W 09:02:20.048 NotebookApp] 404 GET /api/kernels/ec6d9017-7f6f-4f32-9899-d6a37f43b51e/channels?session_id=5c2b0ef98271428b839b97eedd134b5d (178.157.248.62): Kernel does not exist: ec6d9017-7f6f-4f32-9899-d6a37f43b51e
-[W 09:02:20.051 NotebookApp] 404 GET /api/kernels/ec6d9017-7f6f-4f32-9899-d6a37f43b51e/channels?session_id=5c2b0ef98271428b839b97eedd134b5d (178.157.248.62) 9.24ms referer=None
-[W 09:02:20.062 NotebookApp] Replacing stale connection: ec6d9017-7f6f-4f32-9899-d6a37f43b51e:5c2b0ef98271428b839b97eedd134b5d
-[I 09:02:33.458 NotebookApp] Kernel started: 374c4af4-4954-4866-8dce-eeabe85b2110
-[I 09:02:33.986 NotebookApp] Adapting to protocol v5.1 for kernel 374c4af4-4954-4866-8dce-eeabe85b2110
-[I 09:04:37.253 NotebookApp] Saving file at /sharePredict/sharePredict_working.ipynb
-[I 09:04:54.299 NotebookApp] Saving file at /sharePredict/sharePredict_working.ipynb
-[I 09:05:26.543 NotebookApp] Saving file at /sharePredict/sharePredict_working.ipynb
-[I 09:08:37.574 NotebookApp] Saving file at /sharePredict/sharePredict_working.ipynb
-[I 09:09:11.803 NotebookApp] Starting buffering for 374c4af4-4954-4866-8dce-eeabe85b2110:77667161aa264b2494e6ab0588f3062b
-[I 09:09:12.111 NotebookApp] Adapting to protocol v5.1 for kernel 374c4af4-4954-4866-8dce-eeabe85b2110
-[I 09:09:12.112 NotebookApp] Restoring connection for 374c4af4-4954-4866-8dce-eeabe85b2110:77667161aa264b2494e6ab0588f3062b
-[I 09:10:36.122 NotebookApp] Saving file at /sharePredict/sharePredict_working.ipynb
-[I 09:12:34.464 NotebookApp] Starting buffering for 374c4af4-4954-4866-8dce-eeabe85b2110:77667161aa264b2494e6ab0588f3062b
-[I 09:12:34.753 NotebookApp] Adapting to protocol v5.1 for kernel 374c4af4-4954-4866-8dce-eeabe85b2110
-[I 09:12:34.754 NotebookApp] Restoring connection for 374c4af4-4954-4866-8dce-eeabe85b2110:77667161aa264b2494e6ab0588f3062b
-[I 09:12:36.000 NotebookApp] Starting buffering for 374c4af4-4954-4866-8dce-eeabe85b2110:77667161aa264b2494e6ab0588f3062b
-[I 09:12:36.381 NotebookApp] Adapting to protocol v5.1 for kernel 374c4af4-4954-4866-8dce-eeabe85b2110
-[I 09:12:36.382 NotebookApp] Restoring connection for 374c4af4-4954-4866-8dce-eeabe85b2110:77667161aa264b2494e6ab0588f3062b
-[I 09:12:37.477 NotebookApp] Saving file at /sharePredict/sharePredict_working.ipynb
-[I 09:12:42.486 NotebookApp] Starting buffering for 374c4af4-4954-4866-8dce-eeabe85b2110:77667161aa264b2494e6ab0588f3062b
-[I 09:12:42.758 NotebookApp] Adapting to protocol v5.1 for kernel 374c4af4-4954-4866-8dce-eeabe85b2110
-[I 09:12:42.759 NotebookApp] Restoring connection for 374c4af4-4954-4866-8dce-eeabe85b2110:77667161aa264b2494e6ab0588f3062b
-[I 09:15:42.765 NotebookApp] Starting buffering for 374c4af4-4954-4866-8dce-eeabe85b2110:77667161aa264b2494e6ab0588f3062b
-[I 09:15:43.119 NotebookApp] Adapting to protocol v5.1 for kernel 374c4af4-4954-4866-8dce-eeabe85b2110
-[I 09:15:43.119 NotebookApp] Restoring connection for 374c4af4-4954-4866-8dce-eeabe85b2110:77667161aa264b2494e6ab0588f3062b
-[I 09:15:45.614 NotebookApp] Saving file at /sharePredict/sharePredict_working.ipynb
-[I 09:16:13.763 NotebookApp] Starting buffering for 374c4af4-4954-4866-8dce-eeabe85b2110:77667161aa264b2494e6ab0588f3062b
-[I 09:16:20.598 NotebookApp] Adapting to protocol v5.1 for kernel 374c4af4-4954-4866-8dce-eeabe85b2110
-[I 09:17:01.428 NotebookApp] Starting buffering for 374c4af4-4954-4866-8dce-eeabe85b2110:d49fc172f8484ee4a714aeac7f85a181
-[I 09:17:01.628 NotebookApp] Adapting to protocol v5.1 for kernel 374c4af4-4954-4866-8dce-eeabe85b2110
-[I 09:17:01.629 NotebookApp] Restoring connection for 374c4af4-4954-4866-8dce-eeabe85b2110:d49fc172f8484ee4a714aeac7f85a181
-[I 09:17:09.402 NotebookApp] Starting buffering for 374c4af4-4954-4866-8dce-eeabe85b2110:d49fc172f8484ee4a714aeac7f85a181
-[I 09:17:09.603 NotebookApp] Adapting to protocol v5.1 for kernel 374c4af4-4954-4866-8dce-eeabe85b2110
-[I 09:17:09.604 NotebookApp] Restoring connection for 374c4af4-4954-4866-8dce-eeabe85b2110:d49fc172f8484ee4a714aeac7f85a181
-[I 09:17:33.433 NotebookApp] Starting buffering for 374c4af4-4954-4866-8dce-eeabe85b2110:d49fc172f8484ee4a714aeac7f85a181
-[I 09:17:44.914 NotebookApp] Adapting to protocol v5.1 for kernel 374c4af4-4954-4866-8dce-eeabe85b2110
-[I 09:19:47.168 NotebookApp] Saving file at /sharePredict/sharePredict_working.ipynb
-[W 09:22:14.918 NotebookApp] WebSocket ping timeout after 119796 ms.
-[I 09:22:19.920 NotebookApp] Starting buffering for 374c4af4-4954-4866-8dce-eeabe85b2110:5d492d93abd445918377c1a1b11987f6
-[I 09:22:35.703 NotebookApp] Adapting to protocol v5.1 for kernel 374c4af4-4954-4866-8dce-eeabe85b2110
-[I 09:22:35.704 NotebookApp] Restoring connection for 374c4af4-4954-4866-8dce-eeabe85b2110:5d492d93abd445918377c1a1b11987f6
-[I 09:22:40.387 NotebookApp] Starting buffering for 374c4af4-4954-4866-8dce-eeabe85b2110:5d492d93abd445918377c1a1b11987f6
-[I 09:22:40.604 NotebookApp] Adapting to protocol v5.1 for kernel 374c4af4-4954-4866-8dce-eeabe85b2110
-[I 09:22:40.604 NotebookApp] Restoring connection for 374c4af4-4954-4866-8dce-eeabe85b2110:5d492d93abd445918377c1a1b11987f6
-[I 09:23:03.083 NotebookApp] Starting buffering for 374c4af4-4954-4866-8dce-eeabe85b2110:5d492d93abd445918377c1a1b11987f6
-[I 09:23:03.330 NotebookApp] Adapting to protocol v5.1 for kernel 374c4af4-4954-4866-8dce-eeabe85b2110
-[I 09:23:03.330 NotebookApp] Restoring connection for 374c4af4-4954-4866-8dce-eeabe85b2110:5d492d93abd445918377c1a1b11987f6
-[I 09:23:07.790 NotebookApp] Starting buffering for 374c4af4-4954-4866-8dce-eeabe85b2110:5d492d93abd445918377c1a1b11987f6
-[I 09:23:08.026 NotebookApp] Adapting to protocol v5.1 for kernel 374c4af4-4954-4866-8dce-eeabe85b2110
-[I 09:23:08.027 NotebookApp] Restoring connection for 374c4af4-4954-4866-8dce-eeabe85b2110:5d492d93abd445918377c1a1b11987f6
-[I 09:23:12.007 NotebookApp] Starting buffering for 374c4af4-4954-4866-8dce-eeabe85b2110:5d492d93abd445918377c1a1b11987f6
-[I 09:23:12.227 NotebookApp] Adapting to protocol v5.1 for kernel 374c4af4-4954-4866-8dce-eeabe85b2110
-[I 09:23:12.228 NotebookApp] Restoring connection for 374c4af4-4954-4866-8dce-eeabe85b2110:5d492d93abd445918377c1a1b11987f6
-[I 09:23:16.545 NotebookApp] Starting buffering for 374c4af4-4954-4866-8dce-eeabe85b2110:5d492d93abd445918377c1a1b11987f6
-[I 09:23:16.839 NotebookApp] Adapting to protocol v5.1 for kernel 374c4af4-4954-4866-8dce-eeabe85b2110
-[I 09:23:16.840 NotebookApp] Restoring connection for 374c4af4-4954-4866-8dce-eeabe85b2110:5d492d93abd445918377c1a1b11987f6
-[I 09:24:25.693 NotebookApp] Starting buffering for 374c4af4-4954-4866-8dce-eeabe85b2110:5d492d93abd445918377c1a1b11987f6
-[I 09:24:25.933 NotebookApp] Adapting to protocol v5.1 for kernel 374c4af4-4954-4866-8dce-eeabe85b2110
-[I 09:24:25.934 NotebookApp] Restoring connection for 374c4af4-4954-4866-8dce-eeabe85b2110:5d492d93abd445918377c1a1b11987f6
-[W 09:25:55.936 NotebookApp] WebSocket ping timeout after 90002 ms.
-[I 09:26:00.938 NotebookApp] Starting buffering for 374c4af4-4954-4866-8dce-eeabe85b2110:5d492d93abd445918377c1a1b11987f6
-[I 09:26:14.063 NotebookApp] Adapting to protocol v5.1 for kernel 374c4af4-4954-4866-8dce-eeabe85b2110
-[I 09:26:14.063 NotebookApp] Restoring connection for 374c4af4-4954-4866-8dce-eeabe85b2110:5d492d93abd445918377c1a1b11987f6
-[I 09:26:21.162 NotebookApp] Saving file at /sharePredict/sharePredict_working.ipynb
-[C 09:26:49.834 NotebookApp] received signal 15, stopping
-[I 09:26:49.835 NotebookApp] Shutting down 1 kernel
-[I 09:26:49.937 NotebookApp] Kernel shutdown: 374c4af4-4954-4866-8dce-eeabe85b2110
+        http://(ip-172-31-0-198 or 127.0.0.1):8889/?token=ad76dc30dea9a9d5a63adea79aad486da8d1fe7c46ea8934
+[I 20:22:30.959 NotebookApp] 302 GET /?token=ad76dc30dea9a9d5a63adea79aad486da8d1fe7c46ea8934 (178.157.248.62) 0.56ms
+[I 20:22:44.298 NotebookApp] Kernel started: 49fed231-afd1-40fc-a7c2-ec5b95d7af61
+[I 20:22:44.750 NotebookApp] Adapting to protocol v5.1 for kernel 49fed231-afd1-40fc-a7c2-ec5b95d7af61
+[I 20:24:53.691 NotebookApp] Saving file at /shareUtillities.py
+[I 20:25:32.008 NotebookApp] Saving file at /shareUtillities.py
+[I 20:26:45.570 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 20:26:47.972 NotebookApp] Saving file at /shareUtillities.py
+[I 20:28:44.807 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 20:30:44.581 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 20:32:44.591 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 20:34:44.603 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 20:36:44.583 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 20:38:47.274 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 20:40:47.353 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 20:42:44.598 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 20:46:44.610 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 20:48:03.893 NotebookApp] Kernel started: 72cf25b6-0e30-404a-a69e-608eec46e7be
+[I 20:48:04.378 NotebookApp] Adapting to protocol v5.1 for kernel 72cf25b6-0e30-404a-a69e-608eec46e7be
+[I 20:50:44.781 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 20:52:44.619 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 20:54:44.624 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 20:56:44.623 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 20:58:45.649 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:00:47.577 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:02:44.653 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:04:44.647 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:06:44.652 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:07:18.478 NotebookApp] Kernel interrupted: 49fed231-afd1-40fc-a7c2-ec5b95d7af61
+[I 21:08:47.364 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:10:53.461 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:12:46.009 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:14:44.687 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:16:44.720 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:18:44.779 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:20:44.725 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:22:44.707 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:24:44.707 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:26:45.930 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:28:45.990 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:30:47.005 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:32:44.721 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:34:44.761 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:36:44.752 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:38:44.745 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:40:44.746 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:42:44.754 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:44:44.760 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:46:44.792 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:48:45.716 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:50:44.772 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:52:45.859 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:54:50.323 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:56:44.825 NotebookApp] Saving file at /portfolio reporting.ipynb
+[I 21:59:13.593 NotebookApp] Saving file at /portfolio reporting.ipynb
+[W 22:01:34.380 NotebookApp] WebSocket ping timeout after 119800 ms.
+[I 22:01:39.382 NotebookApp] Starting buffering for 72cf25b6-0e30-404a-a69e-608eec46e7be:cbea89af72f64b609fa712c20275de12
+[W 22:01:44.752 NotebookApp] WebSocket ping timeout after 119763 ms.
+[I 22:01:49.753 NotebookApp] Starting buffering for 49fed231-afd1-40fc-a7c2-ec5b95d7af61:4b60895f8e6144ef8e4e587352275d76
