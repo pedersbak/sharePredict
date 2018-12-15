@@ -10,12 +10,6 @@ def save_obj(obj, name ):
 def load_obj(name ):
     with open('./bin/' + name + '.pkl', 'rb') as f:
         return pickle.load(f)
-
-
-
-
-
-
 def downloadSymbolHistory(symbol, maxDate='2999-12-31', download=True):
     # Downloads historik data for symbol.
     # Filters rows newer than maxDate, so that historic data can be simmulated
@@ -25,10 +19,8 @@ def downloadSymbolHistory(symbol, maxDate='2999-12-31', download=True):
         myDf=load_obj(symbol)
         print("Note: Loaded persisted time series data")
         return myDf[myDf.index<=maxDate], errorCode
-
     url = "https://www.alphavantage.co/query"
     function = "TIME_SERIES_DAILY"
-    #api_key = "JS1OH18PC49XLGCG"   
     api_key=os.environ["alphavantagetoken"]
     datatype = "json"
     outputsize = "full"
